@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.min.js"></script>
+    
+</head>
+<body>
+    <div id="mocha"></div>
+    <script>
+        mocha.setup('bdd');
+        var assert = chai.assert;
+    </script>
+
+    <script src="greet.js" charset="utf-8"></script>
+    <script src="greet.tests.js"></script>
+    
+    <script src="isFromBellville.js" charset="utf-8"></script>
+    <script src="isFromBellville.tests.js"></script>
+
+    <script src="regCheck.js" charset="utf-8"></script>
+    <script src="regCheck.tests.js"></script>
+    
+    <script src="countRegNumber.js" charset="utf-8"></script>
+    <script src="countRegNumber.tests.js"></script>
+
+    <script src="isWeekday.js" charset="utf-8"></script>
+    <script src="isWeekday.tests.js"></script>
+
+    <script src="yearsAgo.js" charset="utf-8"></script>
+    <script src="yearsAgo.tests.js"></script>
+
+    <script src="countAllPaarl.js" charset="utf-8"></script>
+    <script src="countAllPaarl.tests.js"></script>
+
+    <script src="countAllFromTown.js" charset="utf-8"></script>
+    <script src="countAllFromTown.tests.js"></script>
+
+    <script src="transportFee.js" charset="utf-8"></script>
+    <script src="transportFee.tests.js"></script>
+
+    <script src="totalPhoneBill.js" charset="utf-8"></script>
+    <script src="totalPhoneBill.tests.js"></script>
+
+    <script src="fromWhere.js" charset="utf-8"></script>
+    <script src="fromWhere.tests.js"></script>
+    
+    <script src="findItemsOver20.js" charset="utf-8"></script>
+    <script src="findItemsOver20.tests.js"></script>
+
+    <script src="findItemsOver.js" charset="utf-8"></script>
+    <script src="findItemsOver.tests.js"></script>
+
+    <script src="mostProfitableDepartment.js" charset="utf-8"></script>
+    <script src="mostProfitableDepartment.tests.js"></script>
+
+
+
+
+     <script>
+        mocha.checkLeaks();
+        mocha.run();
+    </script>
+</body>
+</html>
