@@ -4,7 +4,7 @@ describe('regCheck' , function(){
     assert.deepEqual(regCheck('DV 23 NB GP', 'GP'),true);
     });
     
-    it('else return false ' , function(){
+    it('else return registration number is not for GP, L, EC, MP registration plates ' , function(){
         
         assert.deepEqual(regCheck('DV 23 LP GP','MP'),false);
         });

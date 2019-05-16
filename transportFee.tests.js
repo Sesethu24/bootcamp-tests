@@ -10,7 +10,7 @@ describe('transportFee' , function(shift){
         
     });
     it('should return the price for the night shift' , function(){
-        assert.equal(transportFee(shift==="night"),'free');
+        assert.equal(transportFee("night"),"free");
 
         
     });
