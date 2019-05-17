@@ -20,4 +20,3 @@ var itemList = [
 var results = [{ name: 'pears', qty: 37 },   
 { name: 'bananas', qty: 27 }]
 
-
