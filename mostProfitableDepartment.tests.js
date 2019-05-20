@@ -7,4 +7,5 @@ describe('mostProfitableDepartment' , function(){
        
         assert.deepEqual(mostProfitableDepartment(salesData), 'outdoor');
        });
+       
 });
